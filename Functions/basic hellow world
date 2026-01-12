@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+void printMessage() {
+    cout << "Hello, World!";
+}
+
+int main() {
+    printMessage();
+    return 0;
+}
