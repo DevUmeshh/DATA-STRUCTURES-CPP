@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int decimalToBinary(int n) {
+    int binary = 0, place = 1;
+    while (n > 0) {
+        binary += (n % 2) * place;
+        place *= 10;
+        n /= 2;
+    }
+    return binary;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << decimalToBinary(n);
+    return 0;
+}
