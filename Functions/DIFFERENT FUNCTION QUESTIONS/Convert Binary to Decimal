@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int binaryToDecimal(int n) {
+    int decimal = 0, base = 1;
+    while (n > 0) {
+        int last = n % 10;
+        decimal += last * base;
+        base *= 2;
+        n /= 10;
+    }
+    return decimal;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << binaryToDecimal(n);
+    return 0;
+}
