@@ -7,5 +7,5 @@ bool isArmstrong(int n) {
         sum += power(d, digits);
         n /= 10;
     }
-    return sum == original
+    return sum == original;
 }
