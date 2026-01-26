@@ -7,9 +7,4 @@ int absolute(int n) {
     return n;
 }
 
-int main() {
-    int n;
-    cin >> n;
-    cout << absolute(n);
-    return 0;
-}
+
