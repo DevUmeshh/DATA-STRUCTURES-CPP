@@ -6,7 +6,5 @@ bool isPerfect(int n) {
             sum += i;
             if (i != n / i)
                 sum += n / i;
-        }
-    }
-    return sum == n;
+return sum == n;
 }
