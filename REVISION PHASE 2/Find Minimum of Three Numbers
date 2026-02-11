@@ -1,3 +1,0 @@
-int minimum(int a, int b, int c) {
-    return min(a, min(b, c));
-}
