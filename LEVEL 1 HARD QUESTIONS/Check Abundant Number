@@ -1,1 +1,4 @@
-b
+bool isAbundant(int n) {
+    return sumProperDivisors(n) > n;
+}
+
