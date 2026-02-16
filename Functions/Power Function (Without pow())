@@ -9,4 +9,9 @@ int power(int a, int b) {
     return result;
 }
 
-
+int main() {
+    int a, b;
+    cin >> a >> b;
+    cout << power(a, b);
+    return 0;
+}
