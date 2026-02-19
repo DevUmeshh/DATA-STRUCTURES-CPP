@@ -1,8 +1,1 @@
-#include<iostream>
-using namespace std;
-int main(){
-    //display this GP = 1,2,4,8,1......n terms
-    int n;
-    cout<<"Enter number : ";
-    cin>>n;
 
