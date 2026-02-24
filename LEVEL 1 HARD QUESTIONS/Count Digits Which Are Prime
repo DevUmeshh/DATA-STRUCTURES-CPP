@@ -4,13 +4,3 @@ bool isPrime(int n) {
         if (n % i == 0) return false;
     return true;
 }
-
-int countPrimeDigits(int n) {
-    int count = 0;
-    while (n > 0) {
-        if (isPrime(n % 10))
-            count++;
-        n /= 10;
-    }
-    return count;
-}
