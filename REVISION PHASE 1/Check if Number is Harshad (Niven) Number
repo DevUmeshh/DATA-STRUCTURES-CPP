@@ -7,7 +7,3 @@ int sumDigits(int n) {
     return sum;
 }
 
-bool isHarshad(int n) {
-    int s = sumDigits(n);
-    return (s != 0 && n % s == 0);
-}
