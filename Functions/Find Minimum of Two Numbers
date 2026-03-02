@@ -6,10 +6,3 @@ int findMin(int a, int b) {
         return a;
     return b;
 }
-int main() {
-    int x, y;
-    cin >> x >> y;
-    cout << findMin(x, y);
-    return 0;
-}
-
