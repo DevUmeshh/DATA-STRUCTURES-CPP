@@ -6,10 +6,3 @@ int main(){
     cin>>a;
     cout<<"enter number 2 : ";
     cin>>b;
-    if(a>b){
-        cout<<"first number" << a <<"is greatest";
-    }else{
-        cout<<"Second Number"<< b <<"is greatest"; 
-    }
-}
-
