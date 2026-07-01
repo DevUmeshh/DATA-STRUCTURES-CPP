@@ -17,7 +17,16 @@ int main(){
   cout<<x<<endl;
   x = 10;
   cout<<x+10;
-
-
-
 }
+
+---PORGRAM 3---Pre&Post Incremenr Operator
+#include<iostream>
+using namespace std;
+int main(){
+  int x = 10;
+  x++
+  cout<<x<<endl;  --> first print so o/p is 10
+  ++x;
+  cout<<x<<endl;  --> first increment then print x so o/p is 11
+} 
+
