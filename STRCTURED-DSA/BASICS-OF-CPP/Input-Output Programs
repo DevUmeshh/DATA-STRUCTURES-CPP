@@ -30,3 +30,8 @@ int main(){
   cout<<x<<endl;  --> first increment then print x so o/p is 11
 } 
 
+---PORGRAM 4---Float datatype example--
+#include<iostream>
+int main(){
+  cout<<5/2;  --> 2
+  cout<<5.0/2 --> 2.5
