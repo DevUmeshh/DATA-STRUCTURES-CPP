@@ -32,6 +32,22 @@ int main(){
 
 ---PORGRAM 4---Float datatype example--
 #include<iostream>
+using namespace std;
 int main(){
   cout<<5/2;  --> 2
   cout<<5.0/2 --> 2.5
+
+---PROGRAM 5---BOOLEAN DATATYPE--
+#include<iostream>
+using namespace std;
+int main(){
+ cout<<5<3;  --> 0(false) 
+ cout<<3<5;  --> 1(true)
+
+---PROGRAM 6---iMPLICIT TYPECASTING
+#INCLUDE<iostream>
+using namespace std;
+int main (){
+ int x = 10;
+float y = x;
+cout<<y; --> auto compiled by 
