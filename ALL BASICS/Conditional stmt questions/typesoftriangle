@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float side1,side2,side3;
+    cout<<"side 1 : ";
+    cin>>side1;
+    cout<<"side 2 : ";
+    cin>>side2;
+    cout<<"side 3 : ";
+    cin>>side3;
+
+    if(side1 == side2 == side3){
+        cout<<"equilateral triangle";
+    }else if(side1 ==side2 || side2 == side3 ||side1 == side3 )
+            cout<<"isosceles triangle";
+            else {
+                cout<<"scalene triangle";
+            }
+}

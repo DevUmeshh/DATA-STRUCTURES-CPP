@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter number of rows : ";
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        //first "i" odd numbers
+        int a = 1;
+        for(int j=1;j<=i;j++){ //instead of this we will use j<=2*i-1 and j+=2
+            cout<<a;
+            a+=2;
+            
+        }
+        cout<<endl;
+        
+    }
+}

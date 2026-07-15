@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+    //Area of circle formulae = Pie * r*r
+    float r = 6;
+
+    float pie = 3.1415;
+    float a = pie*r*r;
+
+    cout<<a<<endl;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int power(int a, int b) {
+    int result = 1;
+    while (b > 0) {
+        result *= a;
+        b--;
+    }
+    return result;
+}
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+    cout << power(a, b);
+    return 0;
+}

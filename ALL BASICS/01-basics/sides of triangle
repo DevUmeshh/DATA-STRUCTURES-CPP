@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+    //Take 3 numbers input and tell if they can be sides of triangle or not
+    int a,b,c;
+    cout<<"enter num 1 : ";
+    cin>>a;
+    cout<<"enter num 2 : ";
+    cin>>b;
+    cout<<"enter num 3 : ";
+    cin>>c;
+
+    if(a+b>c && b+c>a && a+c>b){
+        cout<<"the given 3 numbers be the side of triangle";
+    }else{
+        cout<<"not the sides of triangle";
+    }
+
+}

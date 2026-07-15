@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+    //check given number is div by 5 and 3 or not
+    int n;
+    cout<<"Enter an integer : ";
+    cin>>n;
+
+    //use && operator
+    if(n%5==0 && n%3==0){
+        cout<<"number is div by both";
+    }else {
+        cout<<"not div by both";
+    }
+
+}

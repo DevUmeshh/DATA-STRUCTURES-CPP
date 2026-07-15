@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main(){
+    //grading the marks of student if he/she hot 
+    //91 to 100 -> Grade A
+    //75 to 90 -> Grade B
+    //45 to 74 -> Grade C
+    //less than 45 then Fail
+    int n;
+    cout<<"Enter The Marks : ";
+    cin>>n;
+
+    if(n>=91){
+        cout<<"Grade A";
+    }else{
+        if(n>=75){
+            cout<<"Grade B";
+        }else{
+            if(n>=45){
+                cout<<"Grade C";
+            }else{
+                cout<<"Fail";
+            }
+        }
+    }
+}

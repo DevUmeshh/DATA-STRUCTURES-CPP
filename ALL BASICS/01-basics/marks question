@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter The Marks : ";
+    cin>>n;
+
+    if(n>=91){
+        cout<<"Grade A";
+    }
+    else if(n>=75){
+        cout<<"Grade B";
+    }
+    else if(n>=45){
+        cout<<"Grade C";
+    }
+    else{
+        cout<<"Fail";
+    }
+}

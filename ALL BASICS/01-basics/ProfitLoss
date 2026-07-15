@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int cp;
+    int sp;
+
+    cout<<"Enter CP : ";
+    cin>>cp;
+
+    cout<<"Enter SP : ";
+    cin>>sp;
+    
+    if(sp > cp){ 
+        cout<<"Profit : " <<sp-cp;
+    }
+    if(sp < cp){
+        cout<<"loss : " <<cp-sp;
+    }
+    if(sp == cp){
+        cout<<"No Profit No Loss";
+    }
+}

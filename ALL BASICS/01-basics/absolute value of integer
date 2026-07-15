@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+    //to print absolute value of integer
+    int a;
+    cout<<"Enter an integer : ";
+    cin>>a;
+    if(a > 0){
+        cout<<a;
+    }else{
+        cout<<-a;
+    }
+}

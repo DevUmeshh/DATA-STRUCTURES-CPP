@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int fact(int n) {
+    int f = 1;
+    for (int i = 1; i <= n; i++)
+        f *= i;
+    return f;
+}
+
+bool isStrong(int n) {
+    int original = n, sum = 0;
+    while (n > 0) {
+        int d = n % 10;
+        sum += fact(d);
+        n /= 10;
+    }
+    return sum == original;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    if (isStrong(n))
+        cout << "YES";
+    else
+        cout << "NO";
+    return 0;
+}

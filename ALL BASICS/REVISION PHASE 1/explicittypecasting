@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+    float x = 12.25;
+    int y = (int)x;
+    cout<<y;
+}
