@@ -4,12 +4,6 @@ bool isNeon(int n) {
 
     while (sq > 0) {
         sum += sq % 10;
-        sq /= 10;
-    }
-
-    return sum == n;
-}
-
 
 
 
