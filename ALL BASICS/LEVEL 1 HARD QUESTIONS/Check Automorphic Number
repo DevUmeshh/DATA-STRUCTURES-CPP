@@ -10,3 +10,5 @@ bool isAutomorphic(int n) {
 }
 
 
+
+
