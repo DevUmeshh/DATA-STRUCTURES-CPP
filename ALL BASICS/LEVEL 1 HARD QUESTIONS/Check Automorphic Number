@@ -5,6 +5,3 @@ bool isAutomorphic(int n) {
             return false;
         n /= 10;
         sq /= 10;
-    }
-    return true;
-}
