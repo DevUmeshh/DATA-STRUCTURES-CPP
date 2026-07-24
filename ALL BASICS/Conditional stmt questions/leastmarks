@@ -8,3 +8,12 @@ int main(){
     cin>>b;
     cout<<"Enter C : ";
     cin>>c;
+
+    if (a<b && a<c ){
+        cout<<"A has least marks";
+    }else if(b<a && b<c){
+        cout<<"B has least marks";
+    }else{
+        cout<<"C has least marks";
+    }
+}
