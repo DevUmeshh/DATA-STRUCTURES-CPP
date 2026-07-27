@@ -7,3 +7,4 @@ int main(){
     cout<<"enter number 2 : ";
     cin>>b;
 
+
