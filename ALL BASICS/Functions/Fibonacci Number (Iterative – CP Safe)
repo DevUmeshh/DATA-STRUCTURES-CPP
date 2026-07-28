@@ -12,9 +12,3 @@ int fibonacci(int n) {
     return b;
 }
 
-int main() {
-    int n;
-    cin >> n;
-    cout << fibonacci(n);
-    return 0;
-}
