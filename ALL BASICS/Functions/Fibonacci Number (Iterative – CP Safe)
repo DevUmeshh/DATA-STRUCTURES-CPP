@@ -10,3 +10,11 @@ int fibonacci(int n) {
         b = c;
     }
     return b;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << fibonacci(n);
+    return 0;
+}
