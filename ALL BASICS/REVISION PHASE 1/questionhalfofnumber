@@ -3,10 +3,6 @@ using namespace std;
 int main(){
     int x;
     cout<<"take integer : ";
-    cin>>x;
-    float y = (float)x;
-    cout<<"half of number : "<<y/2;
-}
 
 
 
