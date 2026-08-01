@@ -7,17 +7,4 @@ bool isPrime(int n) {
 int countPrimeDigits(int n) {
     int count = 0;
 
-    while (n > 0) {
-        if (isPrime(n % 10))
-            count++;
-        n /= 10;
-    }
-    return count;
-}
-
-
-
-
-
-
 
