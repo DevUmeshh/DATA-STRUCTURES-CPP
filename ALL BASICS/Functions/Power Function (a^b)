@@ -8,6 +8,7 @@ int power(int a, int b) {
         b--;
     }
     return result;
+
 }
 
 
