@@ -19,3 +19,5 @@ int main(){
         else cout<<n<<" is composite";
 
 }
+
+//using boolean we can store the state
