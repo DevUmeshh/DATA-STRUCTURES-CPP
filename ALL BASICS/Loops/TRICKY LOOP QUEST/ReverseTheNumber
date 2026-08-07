@@ -7,3 +7,10 @@ int main(){
     int lastDigit = 0;
     int r = 0;
     while(n>0){
+        r*=10;
+        lastDigit = n%10;
+        r+=lastDigit;
+        n/=10;
+
+    }cout<<"Reverse of number is : "<<r<<endl;
+}
