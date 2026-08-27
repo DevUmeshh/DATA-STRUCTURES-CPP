@@ -9,17 +9,6 @@ int main(){
 }
 
 
----PORGRAM 2---Printing Variables in Cpp---
-#ionclude<iostream>
-using namespace std;
-int main(){
-  int x;
-  x = 19;
-  cout<<x<<endl;
-  x = 10;
-  cout<<x+10;
-}
-
 
 
 ---PORGRAM 3---Pre&Post Incremenr Operator
