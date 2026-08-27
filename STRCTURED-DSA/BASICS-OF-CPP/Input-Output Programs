@@ -1,1 +1,50 @@
 
+
+
+---PORGRAM 2---Printing Variables in Cpp---
+#ionclude<iostream>
+using namespace std;
+int main(){
+  int x;
+  x = 19;
+  cout<<x<<endl;
+  x = 10;
+  cout<<x+10;
+}
+
+
+
+---PORGRAM 3---Pre&Post Incremenr Operator
+#include<iostream>
+using namespace std;
+int main(){
+  int x = 10;
+  x++
+  cout<<x<<endl;  --> first print so o/p is 10
+  ++x;
+  cout<<x<<endl;  --> first increment then print x so o/p is 11
+} 
+
+
+---PORGRAM 4---Float datatype example--
+#include<iostream>
+using namespace std;
+int main(){
+  cout<<5/2;  --> 2
+  cout<<5.0/2 --> 2.5
+
+---PROGRAM 5---BOOLEAN DATATYPE--
+#include<iostream>
+using namespace std;
+int main(){
+ cout<<5<3;  --> 0(false) 
+ cout<<3<5;  --> 1(true)
+
+---PROGRAM 6---iMPLICIT TYPECASTING
+#INCLUDE<iostream>
+using namespace std;
+int main (){
+ int x = 10;
+float y = x;
+cout<<y; --> auto compiled by 
+
