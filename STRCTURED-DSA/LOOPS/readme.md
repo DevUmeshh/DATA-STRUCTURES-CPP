@@ -1,12 +1,12 @@
-# Data Structures and Algorithms in C++
+# Data Structures & Algorithms
 
-This repository contains my **Data Structures and Algorithms practice in C++**.
+My **DSA practice repository in C++**.
 
-I use this repository to document my learning, practice problems, implementations, and solutions as I work on improving my problem-solving skills.
+Contains solutions, implementations, and practice problems covering fundamental and advanced concepts.
 
 ## Topics
 
-* C++ Fundamentals
+* C++ Basics
 * Arrays
 * Strings
 * Linked Lists
@@ -19,8 +19,6 @@ I use this repository to document my learning, practice problems, implementation
 
 ## Goal
 
-To develop strong problem-solving skills and build a clear understanding of Data Structures and Algorithms through regular practice.
+Build strong problem-solving skills through consistent DSA practice.
 
-## Language
-
-**C++**
+**Language:** C++
